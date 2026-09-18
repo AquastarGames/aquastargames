@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aquastar Games - Privacy Policy — AQUASTAR</title>
+<meta name="description" content="Block: Build It Up — Privacy Policy. Aquastar Games.">
+<link rel="stylesheet" href="styles.css?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="IMG_1594.PNG">
+</head>
+<body data-page="privacy">
+
+<header class="header">
+  <div class="header-wide">
+    <a href="index.html" class="logo">
+      <span class="logo-name">AQUASTAR</span>
+    </a>
+    <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="nav" id="nav">
+    <a href="games.html" data-nav="games">Games</a>
+    <a href="about.html" data-nav="about">About</a>
+    <a href="support.html" data-nav="support">Support &amp; Testers</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap wrap-wide">
+      <p class="eyebrow">Privacy</p>
+      <h1>Aquastar Games - Privacy Policy</h1>
+      <p class="lead">Effective date: September 18, 2026</p>
+      <p class="lead">This policy applies to the game <b>Block: Build It Up</b>!</p>
+      <p class="lead">The game and related services are operated by <b>Aquastar Games</b> (hereby referred to as the "Service Provider").</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap wrap-wide stack">
+      <div class="policy">
+        <h3>1. Summary</h3>
+        <ul>
+          <li>The Application has <b>no accounts, no chats, no developer-run servers</b>.</li>
+          <li>Your game progress and settings are stored <b>only locally on your device</b> and are deleted when you clear app data or uninstall the app.</li>
+          <li>The Application shows ads via <b>Unity LevelPlay mediation</b>. The mediation SDK and its ad networks collect device and advertising identifiers and ad-interaction data as described below, under their own privacy policies.</li>
+          <li>The current mediation stack: <b>Unity Ads, Yandex Mobile Ads</b>. <b>AppLovin</b> may be added in a future update without a change of this policy's structure (see §4).</li>
+        </ul>
+
+        <h3>2. Data stored locally on your device (does not leave the device to us)</h3>
+        <p><code>SaveManager</code> writes a single <code>save.json</code> into the app's private storage (<code>Application.persistentDataPath</code>): story progress, endless best score, coins, hearts, boosters, settings (music / sounds / haptics / language), tutorial stage.</p>
+        <ul>
+          <li>We do not operate a server that receives this file.</li>
+          <li>Deleting app data or uninstalling the Application deletes this data (subject to OS behavior and backups you control).</li>
+          <li>No name, email, phone number, or precise location is requested by the Application itself.</li>
+        </ul>
+
+        <h3>3. Data collected automatically via third-party advertising SDKs</h3>
+        <p>When ads are shown, the mediation SDK and ad networks automatically collect:</p>
+        <ul>
+          <li>Advertising ID (Google Advertising ID / <code>AD_ID</code> permission on Android)</li>
+          <li>Device identifiers and device info (model, OS version, app version, language, network state)</li>
+          <li>IP address (used for approximate location / fraud prevention by ad providers)</li>
+          <li>App and ad interactions (impressions, clicks, video completion, rewarded callbacks, crash/diagnostic signals of the ad SDK)</li>
+        </ul>
+        <p>We use this data only for: showing ads (rewarded and interstitial), frequency capping, fraud prevention, and measuring ad performance.</p>
+        <p>Android permissions used for this: <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>com.google.android.gms.permission.AD_ID</code>. The app also uses <code>VIBRATE</code> for haptics — no data collection attached to it.</p>
+
+        <h3>4. Third-party services (their policies govern their data)</h3>
+        <p>The Application uses the following third-party services. Each processes data under its own privacy policy:</p>
+        <ul>
+          <li>Google Play Services — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+          <li>Unity (Unity Ads / LevelPlay mediation) — <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">https://unity.com/legal/privacy-policy</a></li>
+          <li>ironSource / Unity LevelPlay — <a href="https://www.is.com/privacy-policy/" target="_blank" rel="noopener">https://www.is.com/privacy-policy/</a> (LevelPlay docs: <a href="https://docs.unity.com/grow/levelplay/" target="_blank" rel="noopener">https://docs.unity.com/grow/levelplay/</a>)</li>
+          <li>Yandex Mobile Ads — <a href="https://yandex.com/legal/confidential/" target="_blank" rel="noopener">https://yandex.com/legal/confidential/</a></li>
+          <li>AppLovin (reserved for future updates; enabled only after its adapter is bundled) — <a href="https://www.applovin.com/privacy/" target="_blank" rel="noopener">https://www.applovin.com/privacy/</a></li>
+        </ul>
+        <p>The exact set of mediated ad networks may change over time (adapters are added/removed via updates). Categories of collected data stay as described in §3. Check the linked third-party policies for details and retention practiced by each provider.</p>
+
+        <h3>5. Cookies and tracking technologies</h3>
+        <p>The Application itself sets no cookies. Its third-party ad SDKs may use SDK-local identifiers, pixels, and similar technologies for ad delivery, frequency capping, and measurement. Where applicable law requires consent for non-essential tracking, the Service Provider will request it via a consent management (UMP/GDPR) flow before personalized ads are shown.</p>
+
+        <h3>6. How we use information</h3>
+        <ul>
+          <li>Operate the game offline-first (local saves, settings).</li>
+          <li>Show rewarded ads (e.g. extra hearts) and interstitial ads with frequency caps.</li>
+          <li>Prevent ad fraud and debug ad-SDK integration.</li>
+          <li>Where permitted by law, send no marketing communications — the Application has no push/email marketing.</li>
+        </ul>
+
+        <h3>7. Disclosure of information</h3>
+        <p>The Service Provider discloses automatically collected ad data only:</p>
+        <ul>
+          <li>to the ad-mediation providers listed in §4, acting under their own policies;</li>
+          <li>as required by law (subpoena or similar legal process);</li>
+          <li>to protect rights, safety, investigate fraud, or respond to a government request.</li>
+        </ul>
+        <p>No personal data is sold by the Service Provider. "Sale/sharing" as defined by ad networks happens inside their SDKs per their policies and your consent / opt-out choices on the device (e.g. "Delete advertising ID" in Android settings).</p>
+
+        <h3>8. Opt-out and your rights</h3>
+        <ul>
+          <li>Uninstalling the Application stops all further collection by the Application. Data already transmitted to ad providers is governed by their retention policies.</li>
+          <li>You may request access, correction, or deletion of personal data held by the Service Provider, withdraw consent, or exercise CCPA/CPRA rights (right to know, delete, opt out of sale/sharing, non-discrimination) at: <b>aquastarsupport@gmail.com</b>.</li>
+          <li>Device-level opt-outs you can use anytime: Android Settings → Privacy → Ads → "Delete advertising ID"; ad personalization toggles of Google / Yandex / AppLovin per their instructions.</li>
+        </ul>
+
+        <h3>9. Data retention</h3>
+        <ul>
+          <li>Local game data (§2): kept on your device until you delete it; no server copy held by the Service Provider.</li>
+          <li>Ad-SDK data (§3): retained by each third-party provider per its own policy (typically up to 24 months for identifiers/logs, aggregated/anonymized data longer). The Service Provider holds no separate server copy.</li>
+          <li>Legal-compliance data: retained as long as required by applicable law.</li>
+        </ul>
+
+        <h3>10. International transfers</h3>
+        <p>The Service Provider operates no servers. Third-party ad providers may transfer data outside your country (including outside the EEA) using adequacy decisions, Standard Contractual Clauses, or other lawful mechanisms per their policies.</p>
+
+        <h3>11. Children</h3>
+        <p>The Application is a general-audience casual puzzle game and is not directed at children as defined by applicable law. It is not intended for children under the age of digital consent in their jurisdiction (16 in the EU by default, 13 where the law allows a lower threshold with verifiable parental consent).</p>
+        <ul>
+          <li>No behavioral profiling by the Service Provider itself.</li>
+          <li>Personalized advertising to a user known to be below the applicable age threshold requires verifiable parental consent where the law demands it; otherwise only contextual / non-personalized ads may be shown.</li>
+          <li>If you are a parent or guardian and believe your child provided personal data, contact <b>aquastarsupport@gmail.com</b> and it will be deleted to the extent controllable by the Service Provider; data held by ad SDKs must additionally be addressed via the providers in §4.</li>
+        </ul>
+
+        <h3>12. Security and breach notification</h3>
+        <p>The Service Provider applies reasonable safeguards to the code and configuration it controls (no server-side personal data store exists). No method of transmission or storage is fully secure. If a breach affecting your personal data under the Service Provider's control occurs, you will be notified as required by applicable law.</p>
+
+        <h3>13. Changes</h3>
+        <p>Material changes will be posted with a new effective date. Where the law requires, consent to material changes will be requested before they take effect. Previous versions are available on request at <b>aquastarsupport@gmail.com</b>.</p>
+
+        <h3>14. Consent</h3>
+        <p>Where processing is based on consent, you give it by affirmatively opting in (e.g. accepting personalized ads in the consent flow). You may withdraw consent anytime via the contact below or device settings, without affecting prior lawful processing.</p>
+
+        <h3>15. Contact</h3>
+        <p>Questions about privacy: <b>aquastarsupport@gmail.com</b> (Service Provider: Aquastar Games).</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-wide">
+    <div class="footer-logo">aquastar</div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/profile.php?id=61594178802154" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.09 24 18.1 24 12.07z"/></svg></a>
+      <a href="https://x.com/aquastarstudio" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.49 3.24H4.3l13.31 17.41z"/></svg></a>
+      <a href="https://youtube.com/@aquastarstudio" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg></a>
+      <a href="https://www.tiktok.com/@aquastarstudio" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+      <a href="https://www.instagram.com/aquastarstudio" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38A5.88 5.88 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.88 5.88 0 0 0 2.13-1.38 5.88 5.88 0 0 0 1.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.88 5.88 0 0 0-1.38-2.13A5.88 5.88 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.72 3.72 0 0 1-.9 1.38c-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zm0 10.15A4 4 0 1 1 16 12a4 4 0 0 1-4 3.99zm7.85-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg></a>
+      <a href="https://t.me/aquastargames" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+    </div>
+    <div class="footer-nav"><a href="games.html">Games</a><a href="about.html">About</a><a href="support.html">Support &amp; Testers</a></div>
+    <div class="footer-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="privacy-notice.html">Privacy Notice</a></div>
+    <div class="footer-copy">All rights reserved. © 2026 – Aquastar Games</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
