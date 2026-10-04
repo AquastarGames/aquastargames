@@ -1,0 +1,114 @@
+{
+  "backgroundImages": [],
+  "bodyBg": "rgb(248, 248, 246)",
+  "bodyColor": "rgb(17, 18, 20)",
+  "bodyFontSize": "16px",
+  "brokenImages": [],
+  "doc": {
+    "bodyScrollWidth": 1428,
+    "clientWidth": 1428,
+    "scrollHeight": 2886,
+    "scrollWidth": 1428
+  },
+  "fontFamily": "Outfit, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+  "horizontalOverflow": false,
+  "imageCount": 5,
+  "nav": {
+    "display": "block",
+    "text": "aquastar GAMES ABOUT SUPPORT TESTERS",
+    "visible": true
+  },
+  "offenderCount": 0,
+  "offenders": [],
+  "textLength": 1300,
+  "textSample": "aquastar GAMES ABOUT SUPPORT TESTERS GAMES Focused games with a point of view A small catalogue of carefully made mobile games, starting with Block: Build It Up. PUZZLE ANDROID FREE TO PLAY Block: Build It Up Block: Build It Up is a focused block puzzle about reading the board, making space and improving one decision at a time. Short sessions, hand-crafted boards and enough depth to keep your next move interesting. GENRE Block Puzzle PLATFORM Google Play PLAYERS Single-player PRICE Free THE DETAILS Designed around the play ◧ Hand-crafted boards Every layout is authored to create a clear decision, a useful constraint and a satisfying finish. ↺ Short, considered sessions Easy to pick up between other things, with enough structure to reward a longer run. ☾ Offline by design No account and no connection required. The game is ready when you are. NEXT More is in progress We work on one idea at a time. Join the tester programme if you want an early look at what comes after Block: Build It Up. Join the test program Follow on Telegram aquastar Independent game studio crafting tactile, mobile-first puzzle games. STUDIO Games About Support Testers LEGAL Privacy Policy Privacy Notice Terms of ",
+  "title": "Games — AQUASTAR Games",
+  "topBgColors": [
+    [
+      "rgb(255, 255, 255)",
+      7
+    ],
+    [
+      "rgb(10, 11, 13)",
+      3
+    ],
+    [
+      "rgb(236, 236, 234)",
+      3
+    ],
+    [
+      "rgb(23, 25, 28)",
+      3
+    ],
+    [
+      "rgb(241, 241, 239)",
+      2
+    ],
+    [
+      "rgba(13, 14, 16, 0.96)",
+      1
+    ],
+    [
+      "rgb(13, 14, 16)",
+      1
+    ]
+  ],
+  "topTextColors": [
+    [
+      "rgb(255, 255, 255)",
+      42
+    ],
+    [
+      "rgb(17, 18, 20)",
+      40
+    ],
+    [
+      "rgba(255, 255, 255, 0.78)",
+      11
+    ],
+    [
+      "rgb(0, 0, 0)",
+      4
+    ],
+    [
+      "rgb(154, 161, 171)",
+      4
+    ],
+    [
+      "rgb(61, 66, 72)",
+      3
+    ],
+    [
+      "rgb(107, 114, 128)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.55)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.72)",
+      2
+    ],
+    [
+      "rgba(255, 255, 255, 0.5)",
+      2
+    ],
+    [
+      "rgb(101, 106, 112)",
+      1
+    ],
+    [
+      "rgb(114, 119, 125)",
+      1
+    ]
+  ],
+  "url": "http://127.0.0.1:4173/games.html",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  },
+  "yellowAccents": [],
+  "yellowCount": 0,
+  "zeroSizeImages": []
+}

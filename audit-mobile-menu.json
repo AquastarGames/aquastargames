@@ -1,0 +1,99 @@
+{
+  "doc": {
+    "cw": 363,
+    "sw": 363
+  },
+  "h1": "Thoughtful games.\nBuilt to last.",
+  "h1Rect": {
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "60.032px",
+    "lineHeight": "56.4301px",
+    "w": 315
+  },
+  "headerItems": [
+    {
+      "ariaExpanded": null,
+      "display": "flex",
+      "h": 34,
+      "opacity": "1",
+      "tag": "a",
+      "text": "aquastar",
+      "top": 18,
+      "visibility": "visible",
+      "w": 156
+    },
+    {
+      "ariaExpanded": null,
+      "display": "flex",
+      "h": 32,
+      "opacity": "1",
+      "tag": "button",
+      "text": "Toggle menu",
+      "top": 19,
+      "visibility": "visible",
+      "w": 40
+    },
+    {
+      "ariaExpanded": null,
+      "display": "block",
+      "h": 57,
+      "opacity": "0",
+      "tag": "a",
+      "text": "",
+      "top": -238,
+      "visibility": "hidden",
+      "w": 315
+    },
+    {
+      "ariaExpanded": null,
+      "display": "block",
+      "h": 57,
+      "opacity": "0",
+      "tag": "a",
+      "text": "",
+      "top": -181,
+      "visibility": "hidden",
+      "w": 315
+    },
+    {
+      "ariaExpanded": null,
+      "display": "block",
+      "h": 57,
+      "opacity": "0",
+      "tag": "a",
+      "text": "",
+      "top": -124,
+      "visibility": "hidden",
+      "w": 315
+    },
+    {
+      "ariaExpanded": null,
+      "display": "block",
+      "h": 57,
+      "opacity": "0",
+      "tag": "a",
+      "text": "",
+      "top": -68,
+      "visibility": "hidden",
+      "w": 315
+    }
+  ],
+  "horizontalOverflow": false,
+  "smallTapTargets": [],
+  "viewport": {
+    "dpr": 1.25,
+    "h": 812,
+    "w": 375
+  },
+  "visibleButtons": [
+    {
+      "aria": "Toggle menu",
+      "cls": "burger",
+      "expanded": null,
+      "h": 32,
+      "tag": "button",
+      "text": "",
+      "w": 40
+    }
+  ]
+}

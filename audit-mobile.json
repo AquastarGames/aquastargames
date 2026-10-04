@@ -1,0 +1,118 @@
+{
+  "backgroundImages": [],
+  "bodyBg": "rgb(248, 248, 246)",
+  "bodyColor": "rgb(17, 18, 20)",
+  "bodyFontSize": "16px",
+  "brokenImages": [],
+  "doc": {
+    "bodyScrollWidth": 288,
+    "clientWidth": 288,
+    "scrollHeight": 5968,
+    "scrollWidth": 288
+  },
+  "fontFamily": "Outfit, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+  "horizontalOverflow": false,
+  "imageCount": 8,
+  "nav": {
+    "display": "block",
+    "text": "aquastar",
+    "visible": true
+  },
+  "offenderCount": 0,
+  "offenders": [],
+  "textLength": 1697,
+  "textSample": "aquastar INDEPENDENT GAME STUDIO Thoughtful games. Built to last. AQUASTAR creates focused mobile games with clear rules, considered systems and the kind of finish that rewards coming back. View the game Meet the studio OUR APPROACH Precision in every interaction We make a small number of games and give each one room to mature — from the first input to the final sound cue. ◧ Clear by design Every input has a purpose. Responsive controls, restrained motion and feedback that never gets in the way. ✦ Simple to enter Strong fundamentals create room for depth. Learn the rules quickly, then find your own way to play. ◔ Respectful by default Designed for short sessions or long evenings, without noise, pressure or mechanics that compete for attention. PUZZLE ANDROID FREE TO PLAY AVAILABLE NOW Block: Build It Up A focused block puzzle built around clean decisions and satisfying progression. Place, clear and refine your approach across hand-crafted boards made for one more considered attempt. GENRE Block Puzzle PLATFORM Google Play PRICE Free AQUASTAR Explore the studio ↗ Games Play what is available and follow what is next. ↗ Studio Our principles, process and reason for making games. ↗ Sup",
+  "title": "AQUASTAR Games — Independent Game Studio",
+  "topBgColors": [
+    [
+      "rgb(255, 255, 255)",
+      8
+    ],
+    [
+      "rgb(10, 11, 13)",
+      7
+    ],
+    [
+      "rgb(241, 241, 239)",
+      3
+    ],
+    [
+      "rgb(23, 25, 28)",
+      3
+    ],
+    [
+      "rgb(236, 236, 234)",
+      3
+    ],
+    [
+      "rgba(13, 14, 16, 0.96)",
+      1
+    ],
+    [
+      "rgb(13, 14, 16)",
+      1
+    ],
+    [
+      "rgba(255, 255, 255, 0.4)",
+      1
+    ]
+  ],
+  "topTextColors": [
+    [
+      "rgb(255, 255, 255)",
+      52
+    ],
+    [
+      "rgb(17, 18, 20)",
+      50
+    ],
+    [
+      "rgba(255, 255, 255, 0.78)",
+      11
+    ],
+    [
+      "rgb(0, 0, 0)",
+      4
+    ],
+    [
+      "rgba(255, 255, 255, 0.72)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.6)",
+      3
+    ],
+    [
+      "rgb(114, 119, 125)",
+      3
+    ],
+    [
+      "rgb(107, 114, 128)",
+      3
+    ],
+    [
+      "rgb(61, 66, 72)",
+      3
+    ],
+    [
+      "rgb(154, 161, 171)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.75)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.55)",
+      3
+    ]
+  ],
+  "url": "http://127.0.0.1:4173/",
+  "viewport": {
+    "h": 650,
+    "w": 300
+  },
+  "yellowAccents": [],
+  "yellowCount": 0,
+  "zeroSizeImages": []
+}
