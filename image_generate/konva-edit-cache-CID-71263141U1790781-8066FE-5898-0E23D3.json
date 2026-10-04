@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "document": {
-    "name": "Иконка игры в стиле Block Out Grand Games",
-    "protocolJson": "{\"assets\":[],\"page\":{\"id\":\"page_SN_li6O8YLw\",\"type\":\"page\",\"v\":\"3.0.14\",\"layers\":[{\"visible\":true,\"opacity\":1,\"angle\":0,\"scaleX\":1,\"scaleY\":1,\"flipX\":false,\"flipY\":false,\"type\":\"image\",\"lockAspectRatio\":true,\"strokeColor\":{\"type\":\"solid\",\"colors\":[\"#000000\"]},\"strokeWidth\":1,\"paintFirst\":\"fill\",\"strokeEnabled\":false,\"shadow\":{\"offsetX\":0,\"offsetY\":4,\"blur\":4,\"color\":\"#00000040\",\"enabled\":false},\"id\":\"253kr1wEJ4Q\",\"src\":\"https://sc02.alicdn.com/kf/A7f0f5e516925484b9484a2c426c9f0e5U.png\",\"imageWidth\":1024,\"imageHeight\":1024,\"width\":1024,\"height\":1024,\"name\":\"Image 1\",\"externalOperationId\":\"call_C4xF5R4YDNoTSb4ZVn5m1eni:call_C4xF5R4YDNoTSb4ZVn5m1eni\",\"externalOperationStatus\":\"SUCCEEDED\",\"left\":760.8333333333333,\"top\":694.1666666666666}],\"backgroundColor\":{\"colors\":[\"#F1F4F8\"],\"type\":\"solid\"},\"rulerInfo\":{\"visible\":false,\"horizontal\":[],\"vertical\":[],\"locked\":false}},\"loadingLayers\":[]}"
-  },
-  "updatedAt": 1790781772771
-}
